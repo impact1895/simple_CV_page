@@ -1,0 +1,133 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e9e3d6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: #fffedc;
+    text-align: center;
+    border: 1px solid darkgray;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.avatar {
+    width: 175px;
+    height: 175px;
+}
+.header__title {
+    font-size: 25px;
+}
+.header__subtitle {
+    color: rgb(43,133,177);
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: #fffedc;
+    border: 1px solid darkgray;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+}
+.image1 {
+    width: 250px;
+    height: 250px;
+}
+.skills ol {
+    list-style: none;
+}
+
+.hr {
+    width: 75%;
+    height: 1px;
+    border: 1px solid #ababab;
+    background-color: #ababab;
+    border-radius: 5px;
+}
+
+.video {
+    width: 672px;
+    height: 378px;
+    border: none;
+    text-align: center;
+}
+
+.edtable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.edtable th,
+.edtable td {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.quote blockquote{
+    
+    font-size: 32px;
+}
+.form {
+    width: 600px;
+    margin: 0 auto;
+    
+}
+.form input{
+    width: 100%;
+}
+
+.form__submit{
+    padding: 10px;
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+.fieldset {
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid lightcoral;
+}
+.fieldset legend{
+    text-align: left;
+}
+.Optional {
+    border: 2px solid lightskyblue;
+}
+.form div {
+    text-align: center; 
+    margin-bottom: 15px; 
+}
+.control {
+    height: 50%;
+    min-height: 75px;
+    max-height: 150px;
+    width: 70%;
+    min-width: 350px;
+    max-width: 500px;
+}
+
+footer {
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+    height: 80px;
+    background-color: #fffedc;
+    border: 1px solid darkgray;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.maintext {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: rgb(255, 163, 72);
+}

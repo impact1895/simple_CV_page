@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <br>
+        <img src="assets/favicon.png" alt="my photo" class="avatar">
+        <h1 class="header__title"><i>Alex Maksin | CV</i></h1>
+        <h2 class="header__subtitle">Fronted-Developer</h2>
+    </header>
+    <br>
+    <main>
+        <section class="skills">
+            <h3 class="maintext">Skills</h3>
+
+            <details>
+                <summary>Skills list</summary>
+                <ol>
+                    <li><strong>1.</strong> HTML</li>
+                    <li><strong>2.</strong> CSS</li>
+                    <li><strong>3.</strong> JavaScript</li>
+                    <li><strong>4.</strong> React</li>
+                    <li><strong>5.</strong> TypeScript</li>
+                </ol>
+            </details>
+        </section><hr class="hr">
+        <article class="article ">
+            <h4 class="maintext">Short article about me</h4>
+            <p>Активный и целеустремленный молодой человек, готовый к развитию в сфере IT. Самостоятельно изучаю программирование на JavaScript и уверенно работаю в среде VS Code. Параллельно совершенствую знание английского языка. Дисциплинирован, умею работать на результат и планировать свое время, что подтверждают регулярные спортивные тренировки. Быстро осваиваю новые технологии и ищу возможность применить полученные знания на практике.
+            </p>
+        </article><hr class="hr">
+        <section class="gallery">
+            <h3 class="maintext">Gallery</h3>
+            <img class="image1"  src="assets/favicon.png" alt="placehold">
+            <img class="image1" src="assets/favicon.png" alt="placehold">
+            <img class="image1" src="assets/favicon.png" alt="placehold">
+        </section>
+
+        <hr class="hr">
+        <section>
+            <h2 hidden>11</h2>
+            <iframe class="video" src="https://www.youtube.com/embed/fCP01EwSP1o" title="12321321231" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section> <hr class="hr">
+        <section class="hobby">
+            <h3 class="maintext">My hobbies</h3>
+            <details>
+                <summary>Hobbies</summary>
+                <ol>
+                    <li>Basketball</li>
+                    <li>Computer Games</li>
+                    <li>Biking</li>
+                </ol>
+            </details>
+        </section>
+        <h3 hidden>22</h3>
+        <hr class="hr">
+        <section class="education">
+            <h2 hidden>33</h2>
+            <table class="edtable">
+                <thead>
+                    <tr>
+                        <th>School</th>
+                        <th>Course</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ГБУ ОО ЗО "СОШ №4"</td>
+                        <td>Development</td>
+                        <td>2018-now</td>
+                    </tr>
+                    <tr>
+                        <td>Tutor</td>
+                        <td>English</td>
+                        <td>2018-now</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <h2 hidden>33</h2>
+        <hr class="hr">
+        <section class="quote">
+            <h2 hidden>44</h2>
+            <blockquote class="maintext">
+                Действия - это единственный путь к успеху
+            </blockquote>
+        </section><hr class="hr">
+        <h2 hidden>33</h2>
+        <section class="interaction">
+            <h2 hidden>33</h2>
+            <form action="mailto:alex.maksin12@gmail.com" class="form" method="post" target="_blank" >
+                <fieldset class="fieldset">
+                    
+                    <legend>Required fields</legend>
+                    <div class="div">
+                        <label for="firstNameID">First Name: </label>
+                        <input class="from_control"  type="text" name="firstName" id="firstNameID" placeholder="type your first name"  required>
+                    </div>
+                    <div class="div">
+                        <label for="LastNameID">Last Name: </label>
+                        <input  class="from_control" type="text" name="lastName" id="LastNameID" placeholder="type your last name" required>
+                    </div>
+                    <div class="div">
+                        <label for="EmailID">Email: </label>
+                        <input  class="from_control" type="text" name="Email" id="EmailID" placeholder="type your e-mail" required> 
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset class="fieldset Optional">
+                    <legend>Optional field</legend>
+                    <label for="textareaID">Write your questions:</label>
+                    <br>
+                    <textarea name="questions" id="textareaID"  cols="30" rows="7" class="from_control control" placeholder="type your questions"></textarea>
+                </fieldset>
+                <br>
+                
+                <button class="form__submit">Submit</button>
+                <br>
+            </form>
+        </section>
+    </main>
+    <!-- <hr class="hr"> -->
+    <br>
+    <footer>
+        <address>
+            <a href="mailto:alex.maksin12@gmail.com">my e-mail</a>
+            <br><br>
+            <a href="tel:+79900285581">my phone</a>
+        </address>
+    </footer>
+</body>
+
+</html>
